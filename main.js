@@ -94,3 +94,6 @@ overlay.addEventListener('click', () => {
   popup.classList.remove('active');
   overlay.classList.remove('active');
 });
+
+// Set the current year in the copyright section
+document.getElementById('current-year').textContent = new Date().getFullYear();
