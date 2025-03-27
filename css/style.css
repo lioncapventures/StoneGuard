@@ -46,6 +46,11 @@ html{
         border-radius: 2px;
     }
 }
+.phone-contactBtn button{
+    @media (max-width:373px) {
+        width: 80px;
+    }
+}
 .location{
     text-decoration: none;
     color: white;
@@ -119,7 +124,7 @@ html{
         gap: 10px; /* Reduce gap for smaller screens */
     }
 }
-@media (max-width: 540px) {
+@media (max-width: 902px) {
   .first-nav{
     justify-content: flex-end;
     gap: 10px;
